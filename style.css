@@ -57,11 +57,11 @@ z-index: -1;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     margin-top: 36px;
-    transition: .3s ease 
+    transition: .3s ease;
    transition-property: background-color, color;
 }
    #hero .cta:hover {
     color: white;
     background-color: crimson;
-
+   }
 /* End Hero Section*/
