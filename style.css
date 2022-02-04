@@ -52,8 +52,10 @@ z-index: -1;
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+    width: 0;
     background-color: crimson;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
 
     
 }
@@ -68,10 +70,22 @@ z-index: -1;
     letter-spacing: 0.1rem;
     margin-top: 36px;
     transition: .3s ease;
-   transition-property: background-color, color;
+    transition-property: background-color, color;
 }
    #hero .cta:hover {
     color: white;
     background-color: crimson;
    }
 /* End Hero Section*/
+/*Key Frames*/
+@keyframes text_reveal_box {
+50% {
+    width: 100%;
+    left :0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+/*End Key Frames
