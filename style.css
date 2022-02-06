@@ -7,6 +7,7 @@
 html {
     font-size:10px;
     font-family:'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 a {
     text-decoration: none;
@@ -17,6 +18,127 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+p {
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.section-title {
+    color: crimson;
+}
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+}
+.cta:hover {
+    color: white;
+    background-color: crimson;
+}
+.brand h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+.brand h1 span {
+    color: crimson;
+}
+/*Header Section*/
+#header {
+    position:fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+#header .header {
+    min-height: 8vh;
+    background-color: rgba(31, 30, 30, 0.24);
+    transition: 0.3 ease background-color;
+}
+#header .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+}
+#header .nav-list ul {
+    list-style: none;
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    width: 100vw;
+    height:100vh;
+    left: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5 ease left;
+}
+#header .nav-list ul.active {
+    left: 0%;
+}
+#header .nav-list ul a {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+}
+#header .nav-list ul a::after {
+    content: attr(data-after);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: rgba(240, 248, 255, 0.021);
+    font-size: 13rem;
+    letter-spacing: 50px;
+    z-index: -1;
+    transition: 0.3s ease letter-spacing;
+}
+#header .nav-list ul li:hover a::after {
+    transform: translate(-50%, -50%) scale(1);
+    letter-spacing: intial;
+}
+#header .nav-list ul li:hover a {
+    color: crimson;
 }
 
 /* Hero Section*/
@@ -85,8 +207,6 @@ a {
     animation: text_reveal_name .5s ease forwards;
     animation-delay: 2.5s
 }
-<<<<<<< HEAD
-=======
 
 #hero .cta {
     display: inline-block;
@@ -105,17 +225,16 @@ a {
     color: white;
     background-color: crimson;
    }
->>>>>>> parent of 7b223ec (added code to override so all my section and headers will behave the same through the whole site.)
 /* End Hero Section*/
 
 /*Projects Section*/
 #projects .projects {
     flex-direction: column;
     max-width: 1200px;
-    margon: 0 auto;
+    margin: 0 auto;
     padding: 100px 0;
     }
-projects .projects-header h1 {
+#projects .projects-header h1 {
     margin-bottom: 50px;
 }
 #projects .all-projects {
@@ -163,7 +282,7 @@ projects .projects-header h1 {
     overflow: hidden;
     position: relative;
 }
-projects .projects-img:after {
+#projects .projects-img:after {
     content: '';
     position: absolute;
     left: 0;
