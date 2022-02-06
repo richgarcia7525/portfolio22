@@ -84,3 +84,4 @@ Comments are disabled for graded submissions in BootCamp Spot. If you have quest
 (the animation still isnt working corretly text keeps changing font after the reveal just my name and i dont know why)
 ![Screenshot (98)](https://user-images.githubusercontent.com/12145520/152667006-fa77f1b9-261c-49dd-b095-575427f6635c.png)
 (I dont know what happened everything was fine. went to store came back and when added my nav bar went to commit when i did first i got some message about one branch being behind another and i only have one branch. but i fixed that then when i did a check on live server i get this.....i dont know what i did to make this happen but figured id show just for fun.
+![Screenshot (101)](https://user-images.githubusercontent.com/12145520/152671174-bf9c18cf-a75d-47f0-a374-1765f036e6f7.png)
