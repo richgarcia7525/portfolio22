@@ -56,6 +56,7 @@ Application resembles the mock-up functionality provided in the Challenge instru
 Repository Quality: 13%
 Repository has a unique name.
 
+
 Repository follows best practices for file structure and naming conventions.
 
 Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
@@ -75,3 +76,7 @@ NOTE
 You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, you may move on to the next module.
 
 Comments are disabled for graded submissions in BootCamp Spot. If you have questions about your feedback, please notify your instructional staff or the Student Success Manager. If you would like to resubmit your work for an improved grade, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
+
+![Screenshot (100)](https://user-images.githubusercontent.com/12145520/152667004-7ab64be7-557a-4a29-bee2-1942c91159b5.png)
+![Screenshot (99)](https://user-images.githubusercontent.com/12145520/152667005-373e563d-93cb-4e80-8e9b-fb96720503e7.png)
+![Screenshot (98)](https://user-images.githubusercontent.com/12145520/152667006-fa77f1b9-261c-49dd-b095-575427f6635c.png)
